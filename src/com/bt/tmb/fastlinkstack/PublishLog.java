@@ -47,6 +47,7 @@ public class PublishLog implements Runnable
     
     /**
      * Housekeeping function called by thread function: run()
+     * this cleans out the publisher log.
      */
     synchronized private void cleanOut()
     {
