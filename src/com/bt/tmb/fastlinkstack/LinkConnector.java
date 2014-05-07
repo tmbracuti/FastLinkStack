@@ -18,7 +18,7 @@ public class LinkConnector implements Runnable
 {
     final private Properties m_props;
     final private LinkDispatcher m_dispatcher;
-    String m_targetHost;    
+    String m_targetHost;    //this is the its link host
     private int m_targetPort;
     private String m_srcTag;
     private Socket m_server;
