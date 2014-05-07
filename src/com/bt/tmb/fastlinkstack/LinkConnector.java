@@ -16,8 +16,8 @@ import java.nio.charset.Charset;
  */
 public class LinkConnector implements Runnable
 {
-    private Properties m_props;
-    private LinkDispatcher m_dispatcher;
+    final private Properties m_props;
+    final private LinkDispatcher m_dispatcher;
     String m_targetHost;    
     private int m_targetPort;
     private String m_srcTag;
