@@ -7,6 +7,7 @@ import java.util.Date;
 /**
  *
  * @author 606335827
+ * baselined in github 5/7/14
  */
 public class Message implements Comparable<Message>
 {
